@@ -1,13 +1,20 @@
 # Property-Price
 
-• Scraped 7500+ property details from www.99.co using scrapy
+## Business problem: 
+The aim of the model is to help property seekers like me secure apartments at fair prices. To this end I created a model to predict the rent price of a Condo in Singapore on the basis of location, amenities, size, number of bathrooms and number of bedrooms.
 
-• Cleaned data and engineered features to get the data ready for modelling. This included use of RegEx
+## Source of data: 
+Scraped 7500+ property details from www.99.co using scrapy
 
-• Created a Data model to predict the rent price of a Condo in Singapore on the basis of location, amenities, size, number of bathrooms and number of bedrooms 
+Cleaned and explored data, and engineered features to get the data ready for modelling
 
-• Considered Multiple Linear Regression, Lasso Regression and Random Forests finding best hyperparameters using GridSearchCV
+Models used: Multiple Linear Regression, Lasso Regression and Random Forests finding best hyperparameters using GridSearchCV
 
-• The final model has a mean absolute error of SG$400
+Evaluation metrics: Mean absolute error
 
-The aim of the model is to help property seekers like me secure apartments at fair prices
+## Outcome: 
+The final model has a mean absolute error of SG$400
+
+
+Resources:
+https://corporatefinanceinstitute.com/resources/knowledge/valuation/hedonic-pricing/
